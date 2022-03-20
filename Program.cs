@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _20_有效的括号().Test();
+            new _21_合并两个有序链表().Test();
 
             Console.Read();
         }
