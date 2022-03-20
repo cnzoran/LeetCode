@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _53_最大子数组和().Test();
+            new _70_爬楼梯().Test();
 
             Console.Read();
         }
