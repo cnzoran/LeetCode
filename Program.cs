@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _1_两数之和().Test();
+            new _20_有效的括号().Test();
 
             Console.Read();
         }
