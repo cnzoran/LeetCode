@@ -23,7 +23,8 @@ namespace LeetCode.Hot100
                     return new int[] { dic[target - curValue], i };
                 }
 
-                dic.Add(curValue, i);
+                if (!dic.ContainsKey(curValue))
+                    dic.Add(curValue, i);
             }
 
             return new int[2];
@@ -31,7 +32,7 @@ namespace LeetCode.Hot100
 
         public void Test()
         {
-            int[] nums = new int[] { 2, 7, 11, 15 };
+            int[] nums = new int[] { 2, 2, 7, 11, 15 };
             int[] ans = TwoSum(nums, 9);
             Console.WriteLine(string.Join(",", ans));
         }
