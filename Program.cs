@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetCode.Hot100;
+using System;
 
 namespace LeetCode
 {
@@ -6,7 +7,9 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new _1_两数之和().Test();
+
+            Console.Read();
         }
     }
 }
