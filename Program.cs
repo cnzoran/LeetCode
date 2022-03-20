@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _21_合并两个有序链表().Test();
+            new _53_最大子数组和().Test();
 
             Console.Read();
         }
