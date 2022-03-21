@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _70_爬楼梯().Test();
+            new _104_二叉树的最大深度().Test();
 
             Console.Read();
         }
