@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _104_二叉树的最大深度().Test();
+            new _121_买卖股票的最佳时机().Test();
 
             Console.Read();
         }
