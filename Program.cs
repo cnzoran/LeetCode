@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _136_只出现一次的数字().Test();
+            new _141_环形链表().Test();
 
             Console.Read();
         }
