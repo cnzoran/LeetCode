@@ -12,6 +12,11 @@ namespace LeetCode.Hot100
 
         public bool HasCycle(ListNode head)
         {
+            if (head == null || head.next == null)
+            {
+                return false;
+            }
+
             //快慢指针，龟兔赛跑的思想
             ListNode slow = head;
             ListNode fast = head.next; 
@@ -27,7 +32,7 @@ namespace LeetCode.Hot100
                 fast = fast.next.next;
             }
 
-            return false;
+            return true;
         }
 
         public void Test()
