@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _141_环形链表().Test();
+            new _160_相交链表().Test();
 
             Console.Read();
         }
