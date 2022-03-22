@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _121_买卖股票的最佳时机().Test();
+            new _136_只出现一次的数字().Test();
 
             Console.Read();
         }
