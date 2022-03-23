@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _206_反转链表().Test();
+            new _543_二叉树的直径().Test();
 
             Console.Read();
         }
