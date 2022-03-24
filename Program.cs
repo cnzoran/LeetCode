@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _234_回文链表().Test();
+            new _283_移动零().Test();
 
             Console.Read();
         }
