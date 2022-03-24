@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _226_翻转二叉树().Test();
+            new _234_回文链表().Test();
 
             Console.Read();
         }
