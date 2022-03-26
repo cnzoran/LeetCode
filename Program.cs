@@ -7,9 +7,9 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _283_移动零().Test();
+            new _338_比特位计数().Test();
 
-            Console.Read();
+            // Console.Read();
         }
     }
 }
