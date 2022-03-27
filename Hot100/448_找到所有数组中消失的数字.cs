@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 namespace LeetCode.Hot100
 {
+    //https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/
+    
     class _448_找到所有数组中消失的数字
     {
         public List<int> FindDisappearedNumbers(int[] nums)
