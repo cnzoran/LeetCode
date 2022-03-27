@@ -2,6 +2,8 @@ using System;
 
 namespace LeetCode.Hot100
 {
+    //https://leetcode-cn.com/problems/add-two-numbers/
+    
     class _2_两数相加
     {
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
