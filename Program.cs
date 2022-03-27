@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _448_找到所有数组中消失的数字().Test();
+            new _461_汉明距离().Test();
 
             // Console.Read();
         }
