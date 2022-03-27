@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _461_汉明距离().Test();
+            new _2_两数相加().Test();
 
             // Console.Read();
         }
