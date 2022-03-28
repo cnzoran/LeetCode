@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _11_盛最多水的容器().Test();
+            new _15_三数之和().Test();
 
             Console.Read();
         }
