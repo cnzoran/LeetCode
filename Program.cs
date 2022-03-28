@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _19_删除链表的倒数第_N_个结点().Test();
+            new _22_括号生成().Test();
 
             Console.Read();
         }
