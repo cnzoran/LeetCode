@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _15_三数之和().Test();
+            new _17_电话号码的字母组合().Test();
 
             Console.Read();
         }
