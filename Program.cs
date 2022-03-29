@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _22_括号生成().Test();
+            new _31_下一个排列().Test();
 
             Console.Read();
         }
