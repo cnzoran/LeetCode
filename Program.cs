@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _31_下一个排列().Test();
+            new _33_搜索旋转排序数组().Test();
 
             Console.Read();
         }
