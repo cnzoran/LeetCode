@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _33_搜索旋转排序数组().Test();
+            new _34_在排序数组中查找元素的第一个和最后一个位置().Test();
 
             Console.Read();
         }
