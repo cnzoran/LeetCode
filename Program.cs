@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _39_组合总和().Test();
+            new _46_全排列().Test();
 
             Console.Read();
         }
