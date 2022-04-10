@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _46_全排列().Test();
+            new _48_旋转图像().Test();
 
             Console.Read();
         }
