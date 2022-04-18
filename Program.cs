@@ -8,7 +8,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TupleClz.Test();
+            _ = AwaitOperator.Main();
 
             Console.Read();
         }
