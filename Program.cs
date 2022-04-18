@@ -1,4 +1,5 @@
-﻿using LeetCode.Hot100;
+﻿using LeetCode.CandyGrammar;
+using LeetCode.Hot100;
 using System;
 
 namespace LeetCode
@@ -7,7 +8,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new _48_旋转图像().Test();
+            TupleClz.Test();
 
             Console.Read();
         }
