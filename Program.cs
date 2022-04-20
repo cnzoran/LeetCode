@@ -8,7 +8,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            _ = AwaitOperator.Main();
+            //_ = AwaitOperator.Main();
+            new _49_字母异位词分组().Test();
 
             Console.Read();
         }
