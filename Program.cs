@@ -9,7 +9,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
             //_ = AwaitOperator.Main();
-            new _56_合并区间().Test();
+            new _62_不同路径().Test();
 
             Console.Read();
         }
