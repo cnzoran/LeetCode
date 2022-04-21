@@ -9,7 +9,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
             //_ = AwaitOperator.Main();
-            new _62_不同路径().Test();
+            new _64_最小路径和().Test();
 
             Console.Read();
         }
