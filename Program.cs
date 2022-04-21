@@ -9,7 +9,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
             //_ = AwaitOperator.Main();
-            new _49_字母异位词分组().Test();
+            new _56_合并区间().Test();
 
             Console.Read();
         }
