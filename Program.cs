@@ -9,7 +9,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
             //_ = AwaitOperator.Main();
-            new _75_颜色排序().Test();
+            new _78_子集().Test();
 
             Console.Read();
         }
