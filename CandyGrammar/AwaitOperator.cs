@@ -9,13 +9,13 @@ namespace LeetCode.CandyGrammar
 {
     internal class AwaitOperator
     {
-        public static async Task Main()
+        public static async Task MainAwait()
         {
             Task<int> downloading = DownloadDocsMainPageAsync();
-            Console.WriteLine($"{nameof(Main)}: Launched downloading.");
+            Console.WriteLine($"{nameof(MainAwait)}: Launched downloading.");
 
             int bytesLoaded = await downloading;
-            Console.WriteLine($"{nameof(Main)}: Downloaded {bytesLoaded} bytes.");
+            Console.WriteLine($"{nameof(MainAwait)}: Downloaded {bytesLoaded} bytes.");
         }
 
         private static async Task<int> DownloadDocsMainPageAsync()
