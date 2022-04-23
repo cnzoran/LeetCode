@@ -9,6 +9,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
             //_ = AwaitOperator.Main();
+            CandyDemo.TestArrApi();
             new _78_子集().Test();
 
             Console.Read();

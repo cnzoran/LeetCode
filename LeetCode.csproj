@@ -5,4 +5,9 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Aardvark.Base.FSharp" Version="5.2.2" />
+    <PackageReference Include="LanguageExt.Core" Version="4.0.4" />
+  </ItemGroup>
+
 </Project>
