@@ -10,7 +10,7 @@ namespace LeetCode
         {
             //_ = AwaitOperator.Main();
             //CandyDemo.TestArrApi();
-            new _79_单词搜索().Test();
+            new _98_验证二叉搜索树().Test();
 
             Console.Read();
         }
