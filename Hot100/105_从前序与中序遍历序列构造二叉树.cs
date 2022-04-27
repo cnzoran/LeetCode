@@ -11,14 +11,10 @@ namespace LeetCode.Hot100
     {
         public TreeNode BuildTree(int[] preorder, int[] inorder)
         {
-            if (preorder.Length == 0)
-                return null;
-            BuildTree(preorder, 0, preorder.Length - 1, inorder, 0, inorder.Length - 1);
-        }
-
-        private TreeNode BuildTree(int[] preorder, int currPreorderLen, int preorderLen, int[] inorder, int currInorderLen, int inorderLen)
-        {
-            
+            //if (preorder.Length == 0)
+            //    return null;
+            //BuildTree(preorder, 0, preorder.Length - 1, inorder, 0, inorder.Length - 1);
+            return new TreeNode();
         }
     }
 }

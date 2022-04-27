@@ -9,8 +9,8 @@ namespace LeetCode
         static void Main(string[] args)
         {
             //_ = AwaitOperator.Main();
-            //CandyDemo.TestArrApi();
-            new _102_二叉树的层序遍历().Test();
+            CandyDemo.YieldTest();
+            //new _102_二叉树的层序遍历().Test();
 
             Console.Read();
         }

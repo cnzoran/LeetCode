@@ -19,5 +19,25 @@ namespace LeetCode.CandyGrammar
             int[] arr3 = arr[1 .. 4];
             Console.WriteLine(string.Join(",", arr3));
         }
+
+
+        public static void YieldTest()
+        {
+            foreach (int i in Power(2, 8))
+            {
+                Console.Write($"{i} ");
+            }
+        }
+
+        public static IEnumerable<int> Power(int number, int exponent)
+        {
+            int result = 1;
+
+            for (int i = 0; i < exponent; i++)
+            {
+                result *= number;
+                yield return result;
+            }
+        }
     }
 }
