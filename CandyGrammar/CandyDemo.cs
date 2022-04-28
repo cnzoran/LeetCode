@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace LeetCode.CandyGrammar
@@ -23,20 +24,29 @@ namespace LeetCode.CandyGrammar
 
         public static void YieldTest()
         {
-            foreach (int i in Power(2, 8))
+            IEnumerable<int> numbers = Fibonacci(10);
+            
+
+            foreach (int n in from nums in numbers
+                              where nums % 2 == 0
+                              select nums)
             {
-                Console.Write($"{i} ");
+                Console.WriteLine(n);
             }
         }
 
-        public static IEnumerable<int> Power(int number, int exponent)
+        private static IEnumerable<int> Fibonacci(int count)
         {
-            int result = 1;
-
-            for (int i = 0; i < exponent; i++)
+            int prev = 1;
+            int curr = 1;
+            List<int> result = new();
+            for (int i = 0; i < count; i++)
             {
-                result *= number;
-                yield return result;
+                yield return prev;
+                Thread.Sleep(1000);
+                int temp = prev;
+                prev = curr;
+                curr = temp + curr;
             }
         }
     }
