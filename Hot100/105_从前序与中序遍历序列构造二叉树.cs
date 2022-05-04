@@ -18,7 +18,7 @@ namespace LeetCode.Hot100
 
             int inorderIndex = 0;
             
-            for (int i = 0; i < preorder.Length; i++)
+            for (int i = 1; i < preorder.Length; i++)
             {
                 int preorderValue = preorder[i];
                 TreeNode node = stack.Peek();
