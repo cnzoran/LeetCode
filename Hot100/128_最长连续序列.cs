@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Hot100
 {
+    //https://leetcode-cn.com/problems/longest-consecutive-sequence/
     public class _128_最长连续序列
     {
         public int LongestConsecutive(int[] nums)
