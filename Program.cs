@@ -10,7 +10,6 @@ namespace LeetCode
         {
             //_ = AwaitOperator.Main();
             //CandyDemo.YieldTest();
-            new _96_不同的二叉搜索树().Test();
 
             Console.Read();
         }
